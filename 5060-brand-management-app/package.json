@@ -1,0 +1,11 @@
+{
+  "name": "5060-brand-management-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Root workspace for 5060 Brand Management",
+  "scripts": {
+    "install:lab": "npm install --prefix career-translate-lab",
+    "dev:lab": "npm run dev --prefix career-translate-lab",
+    "build:lab": "npm run build --prefix career-translate-lab"
+  }
+}

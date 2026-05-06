@@ -1,0 +1,17 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-lifestyle",
+      "description": "A woman riding a bicycle on a scenic road at sunset",
+      "imageUrl": "https://picsum.photos/seed/prime-bike/1200/800",
+      "imageHint": "woman bicycle"
+    },
+    {
+      "id": "diagnostic-process",
+      "description": "Abstract visualization of data and AI analysis",
+      "imageUrl": "https://picsum.photos/seed/primebrand-ai/800/600",
+      "imageHint": "artificial intelligence"
+    }
+  ]
+}
