@@ -49,8 +49,8 @@ export default function Nav() {
       )}
     >
       <div className="container-prose flex h-16 md:h-20 items-center justify-between">
-        <Link to="/" className="font-serif text-base md:text-lg tracking-tight text-primary">
-          꿈몰다 <span className="text-muted-foreground font-normal">브랜드 매니지먼트</span>
+        <Link to="/" className="flex items-center">
+          <img src="/logo.png" alt="꿈몰다 브랜드 매니지먼트" className="h-3 md:h-4 w-auto object-contain" />
         </Link>
         <nav className="hidden lg:flex items-center gap-8">
           {NAV_LINKS.map((l) => renderLink(l.href, l.label))}
