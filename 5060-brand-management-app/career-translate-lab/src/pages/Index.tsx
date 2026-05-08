@@ -2,6 +2,7 @@ import CTAButton from "@/components/site/CTAButton";
 import { NumberedLabel } from "@/components/site/Editorial";
 import { ArrowRight, Sparkles, Check, Clock, User, Briefcase } from "lucide-react";
 import { Link } from "react-router-dom";
+import FAQ from "@/components/site/FAQ";
 
 export default function Index() {
   return (
@@ -378,6 +379,9 @@ export default function Index() {
           </div>
         </div>
       </section>
+
+      {/* SECTION 8: FAQ */}
+      <FAQ />
 
       {/* FINAL CTA */}
       <section className="py-24 md:py-32 bg-primary text-primary-foreground text-center relative overflow-hidden">
